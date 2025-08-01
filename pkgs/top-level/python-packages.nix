@@ -1703,11 +1703,11 @@ self: super: with self; {
 
   basswood-av = callPackage ../development/python-modules/basswood-av { };
 
+  batch-tamarin = callPackage ../development/python-modules/batch-tamarin { };
+
   batchgenerators = callPackage ../development/python-modules/batchgenerators { };
 
   batchspawner = callPackage ../development/python-modules/batchspawner { };
-
-  batch-tamarin = callPackage ../development/python-modules/batch-tamarin { };
 
   batinfo = callPackage ../development/python-modules/batinfo { };
 

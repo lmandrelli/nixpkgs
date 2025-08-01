@@ -14025,17 +14025,17 @@
     githubId = 695526;
     name = "Benjamin Kober";
   };
-  lmandrelli = {
-    email = "luca.mandrelli@icloud.com";
-    github = "lmandrelli";
-    githubId = 73400538;
-    name = "Luca Mandrelli";
-  };
   lampros = {
     email = "hauahx@gmail.com";
     github = "LamprosPitsillos";
     githubId = 61395246;
     name = "Lampros Pitsillos";
+  };
+  lmandrelli = {
+    email = "luca.mandrelli@icloud.com";
+    github = "lmandrelli";
+    githubId = 73400538;
+    name = "Luca Mandrelli";
   };
   larsr = {
     email = "Lars.Rasmusson@gmail.com";
