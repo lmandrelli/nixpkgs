@@ -6,7 +6,6 @@
   tree-sitter,
   pythonOlder,
 }:
-
 buildPythonPackage rec {
   pname = "py-tree-sitter-spthy";
   version = "1.2.1";
@@ -31,12 +30,12 @@ buildPythonPackage rec {
 
   # There are no tests in the repository
   doCheck = false;
-  pythonImportsCheck = [ "py_tree_sitter_spthy" ];
+  pythonImportsCheck = ["py_tree_sitter_spthy"];
 
   meta = {
     description = "Tree-sitter parser for Spthy language (Tamarin Prover)";
     homepage = "https://github.com/lmandrelli/py-tree-sitter-spthy";
     license = lib.licenses.gpl3Plus;
-    maintainers = with lib.maintainers; [ lmandrelli ];
+    maintainers = with lib.maintainers; [lmandrelli];
   };
 }

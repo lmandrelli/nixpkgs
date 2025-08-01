@@ -13,7 +13,6 @@
   jinja2,
   graphviz,
 }:
-
 buildPythonPackage rec {
   pname = "batch-tamarin";
   version = "0.2.5";
@@ -45,16 +44,16 @@ buildPythonPackage rec {
 
   # Tests require Tamarin Prover to be installed
   doCheck = false;
-  
+
   # pythonImportsCheck disabled because package creates cache directory during import
   # which is not allowed in Nix sandbox
-  pythonImportsCheck = [ ];
+  pythonImportsCheck = [];
 
   meta = {
     description = "Python wrapper for Tamarin Prover with JSON configuration";
     homepage = "https://github.com/tamarin-prover/batch-tamarin";
     license = lib.licenses.gpl3Plus;
-    maintainers = with lib.maintainers; [ lmandrelli ];
+    maintainers = with lib.maintainers; [lmandrelli];
     mainProgram = "batch-tamarin";
   };
 }
