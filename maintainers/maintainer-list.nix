@@ -14031,12 +14031,6 @@
     githubId = 61395246;
     name = "Lampros Pitsillos";
   };
-  lmandrelli = {
-    email = "luca.mandrelli@icloud.com";
-    github = "lmandrelli";
-    githubId = 73400538;
-    name = "Luca Mandrelli";
-  };
   larsr = {
     email = "Lars.Rasmusson@gmail.com";
     github = "larsr";
@@ -14574,6 +14568,12 @@
     github = "lluchs";
     githubId = 516527;
     name = "Lukas Werling";
+  };
+  lmandrelli = {
+    email = "luca.mandrelli@icloud.com";
+    github = "lmandrelli";
+    githubId = 73400538;
+    name = "Luca Mandrelli";
   };
   lnl7 = {
     email = "daiderd@gmail.com";
