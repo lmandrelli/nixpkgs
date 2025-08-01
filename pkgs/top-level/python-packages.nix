@@ -1707,6 +1707,8 @@ self: super: with self; {
 
   batchspawner = callPackage ../development/python-modules/batchspawner { };
 
+  batch-tamarin = callPackage ../development/python-modules/batch-tamarin { };
+
   batinfo = callPackage ../development/python-modules/batinfo { };
 
   baycomp = callPackage ../development/python-modules/baycomp { };
@@ -12271,6 +12273,8 @@ self: super: with self; {
   py-synologydsm-api = callPackage ../development/python-modules/py-synologydsm-api { };
 
   py-tes = callPackage ../development/python-modules/py-tes { };
+
+  py-tree-sitter-spthy = callPackage ../development/python-modules/py-tree-sitter-spthy { };
 
   py-ubjson = callPackage ../development/python-modules/py-ubjson { };
 
