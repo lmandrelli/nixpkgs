@@ -54,7 +54,7 @@ buildPythonPackage rec {
     description = "Python wrapper for Tamarin Prover with JSON configuration";
     homepage = "https://github.com/tamarin-prover/batch-tamarin";
     license = lib.licenses.gpl3Plus;
-    maintainers = with lib.maintainers; [ ];
+    maintainers = with lib.maintainers; [ lmandrelli ];
     mainProgram = "batch-tamarin";
   };
 }

@@ -37,6 +37,6 @@ buildPythonPackage rec {
     description = "Tree-sitter parser for Spthy language (Tamarin Prover)";
     homepage = "https://github.com/lmandrelli/py-tree-sitter-spthy";
     license = lib.licenses.gpl3Plus;
-    maintainers = with lib.maintainers; [ ];
+    maintainers = with lib.maintainers; [ lmandrelli ];
   };
 }
